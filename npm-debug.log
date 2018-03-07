@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'moment',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData moment
+8 silly fetchNamedPackageData moment
+9 silly mapToRegistry name moment
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'moment',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'moment',
+12 silly mapToRegistry   name: 'moment',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/moment
+14 verbose request uri https://registry.npmjs.org/moment
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 2:19:04 PM
+17 verbose request id 61985463b93ee69e
+18 verbose etag "5a2bfbfc-1fcb1"
+19 verbose lastModified Sat, 9 Dec 2017 15:06:36 GMT
+20 http request GET https://registry.npmjs.org/moment
+21 http 304 https://registry.npmjs.org/moment
+22 verbose headers { date: 'Sun, 10 Dec 2017 07:19:05 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: '"5a2bfbfc-1fcb1"',
+22 verbose headers   age: '596',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '6',
+22 verbose headers   'x-timer': 'S1512890345.205444,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 10 Dec 2017 07:19:05 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: '"5a2bfbfc-1fcb1"',
+23 silly get     age: '596',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sin18023-SIN',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '6',
+23 silly get     'x-timer': 'S1512890345.205444,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/moment from cache
+25 verbose get saving moment to C:\Users\calia\AppData\Roaming\npm-cache\registry.npmjs.org\moment\.cache.json
+26 verbose correctMkdir C:\Users\calia\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule moment@2.19.3 checking installable status
+40 silly cache add args [ 'moment', null ]
+41 verbose cache add spec moment
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'moment',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'moment',
+42 silly cache add   name: 'moment',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed moment@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for moment
+45 info addNameTag [ 'moment', 'latest' ]
+46 silly mapToRegistry name moment
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'moment',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'moment',
+49 silly mapToRegistry   name: 'moment',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/moment
+51 verbose addNameTag registry:https://registry.npmjs.org/moment not in flight; fetching
+52 verbose get https://registry.npmjs.org/moment not expired, no request
+53 silly addNameTag next cb for moment with tag latest
+54 silly addNamed moment@2.19.3
+55 verbose addNamed "2.19.3" is a plain semver version for moment
+56 silly mapToRegistry name moment
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'moment',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'moment',
+59 silly mapToRegistry   name: 'moment',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/moment
+61 verbose addRemoteTarball https://registry.npmjs.org/moment/-/moment-2.19.3.tgz not in flight; adding
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-2.19.3.tgz',
+62 verbose addRemoteTarball   'bdb99d270d6d7fda78cc0fbace855e27fe7da69f' ]
+63 info retry fetch attempt 1 at 2:19:04 PM
+64 info attempt registry request try #1 at 2:19:04 PM
+65 http fetch GET https://registry.npmjs.org/moment/-/moment-2.19.3.tgz
+66 http fetch 200 https://registry.npmjs.org/moment/-/moment-2.19.3.tgz
+67 info retry will retry, error on last attempt: Error: read ECONNRESET
+68 silly fetchAndShaCheck shasum bdb99d270d6d7fda78cc0fbace855e27fe7da69f
+69 silly rollbackFailedOptional Starting
+70 silly rollbackFailedOptional Finishing
+71 silly runTopLevelLifecycles Finishing
+72 silly install printInstalled
+73 verbose stack Error: shasum check failed for C:\Users\calia\AppData\Local\Temp\npm-1388-ef083eea\registry.npmjs.org\moment\-\moment-2.19.3.tgz
+73 verbose stack Expected: bdb99d270d6d7fda78cc0fbace855e27fe7da69f
+73 verbose stack Actual:   18fd946b3cd8a8ea0b64b97bffdee9ac22f49190
+73 verbose stack From:     https://registry.npmjs.org/moment/-/moment-2.19.3.tgz
+73 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+73 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+73 verbose stack     at emitNone (events.js:91:20)
+73 verbose stack     at ReadStream.emit (events.js:185:7)
+73 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+73 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+73 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+74 verbose cwd D:\#NODEJS\dipantau_banjarmasin_api
+75 error Windows_NT 10.0.16299
+76 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "moment" "--save"
+77 error node v6.11.4
+78 error npm  v3.10.10
+79 error shasum check failed for C:\Users\calia\AppData\Local\Temp\npm-1388-ef083eea\registry.npmjs.org\moment\-\moment-2.19.3.tgz
+79 error Expected: bdb99d270d6d7fda78cc0fbace855e27fe7da69f
+79 error Actual:   18fd946b3cd8a8ea0b64b97bffdee9ac22f49190
+79 error From:     https://registry.npmjs.org/moment/-/moment-2.19.3.tgz
+80 error If you need help, you may report this error at:
+80 error     <https://github.com/npm/npm/issues>
+81 verbose exit [ 1, true ]

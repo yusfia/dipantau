@@ -1,0 +1,70 @@
+{
+    "server_error": {
+        "success": false,
+        "messages": "Server tidak merespon, silahkan coba beberapa saat lagi"
+    },
+    "invalid_session": {
+        "success": false,
+        "messages": "Kode sesi tidak sesuai atau sudah tidak berlaku"
+    },
+    "email_already_use": {
+        "success": false,
+        "messages": "Email telah digunakan, jika itu akun Anda, silahkan Login"
+    },
+    "parameter_not_completed": {
+        "code": 6003,
+        "messages": "Parameter tidak lengkap"
+    },
+    "phone_already_use": {
+        "success": false,
+        "messages": "Nomor telah digunakan, jika itu akun Anda, silahkan Login"
+    },
+    "username_already_use": {
+        "success": false,
+        "messages": "Username telah digunakan, jika itu akun Anda, silahkan Login"
+    },
+    "email_or_password_invalid": {
+        "success": false,
+        "messages": "Email atau password yang Anda masukkan salah"
+    },
+    "user_not_found": {
+        "success": false,
+        "messages": "Pengguna tidak ditemukan"
+    },
+    "product_not_found": {
+        "success": false,
+        "messages": "Product tidak ditemukan"
+    },
+    "account_created": {
+        "success": true,
+        "messages": "Berhasil membuat akun"
+    },
+    "request_success": {
+        "success": true,
+        "messages": "Berhasil memuat permintaan"
+    },
+    "login_success": {
+        "success": true,
+        "messages": "Permintaan login diterima"
+    },
+    "panic_sent_success": {
+        "success": true,
+        "messages": "Sinyal darurat telah berhasil dikirimkan!"
+    },
+    "panic_sent_failed": {
+        "success": false,
+        "messages": "Sinyal darurat gagal dikirimkan!"
+    },
+    "panic_fetch_succes": {
+        "success": true,
+        "messages": "History data panik berhasil didownload"
+    },
+    "product_not_found": {
+        "code": 6003,
+        "messages": "Product Belum Tersedia"
+    },
+    "product_found": {
+        "code": 6000,
+        "messages": "Product Tersedia"
+    }
+}
